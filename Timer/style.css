@@ -1,0 +1,27 @@
+body {
+  background-image: url("IMG/adam-chang-IWenq-4JHqo-unsplash.jpg");
+  background-size: cover;
+  font-family: "Monsieur La Doulaise";
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+html {
+  height: 600px;
+  width: 600px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.time-area {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.time {
+  font-size: 1rem;
+  text-align: center;
+}

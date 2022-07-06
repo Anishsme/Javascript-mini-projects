@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="welcome">
+      <div id="head">Welcome to the quiz Game</div>
+
+      <button id="start">Let's Play</button>
+    </div>
+    <div class="end">
+      <div id="head">Congrats you have finished</div>
+      <div style="margin-top: 50px">You scored <span id="score"></span>/6</div>
+    </div>
+
+    <div class="container">
+      <div class="question">Welcome to the Quiz app</div>
+      <div class="options">
+        <input type="radio" id="a" name="x" /><label id="one"></label>
+        <br />
+        <input type="radio" id="b" name="x" /><label id="two"></label>
+        <br />
+        <input type="radio" name="x" id="c" /><label id="three"></label>
+        <br />
+        <input type="radio" name="x" id="d" /><label id="four"></label>
+      </div>
+      <button class="submit">Submit Answer</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
