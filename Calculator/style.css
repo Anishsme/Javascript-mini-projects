@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#display {
+  /* border: 3px solid white; */
+  height: 40px;
+  display: flex;
+  background-color: black;
+  justify-content: flex-start;
+  width: 20vw;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  width: 20vw;
+}
+
+span {
+  margin: 3px;
+  color: white;
+  font-weight: bold;
+}
+button {
+  margin: 5px;
+}
+
+.numbers {
+  background-color: orange;
+  border-radius: 20%;
+}
+
+.op {
+  background-color: green;
+  border-radius: 20%;
+  width: 85px;
+  flex-shrink: 1;
+}

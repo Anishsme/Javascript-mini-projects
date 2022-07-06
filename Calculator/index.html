@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="display">
+        <span id="2-digit">0</span>
+        <span id="1-digit">0</span>
+        <span id="ans"></span>
+      </div>
+      <div class="row1">
+        <button type="submit" class="numbers" onclick="numclick(7)">7</button>
+        <button type="submit" class="numbers" onclick="numclick(8)">8</button>
+        <button type="submit" class="numbers" onclick="numclick(9)">9</button>
+        <button type="submit" class="op" onclick="add()">ADD</button>
+        <br />
+      </div>
+      <div class="row2">
+        <button type="submit" class="numbers" onclick="numclick(4)">4</button>
+        <button type="submit" class="numbers" onclick="numclick(5)">5</button>
+        <button type="submit" class="numbers" onclick="numclick(6)">6</button>
+        <button type="submit" class="op" onclick="subtract()">SUBTRACT</button>
+        <br />
+      </div>
+
+      <div class="row3">
+        <button type="submit" class="numbers" onclick="numclick(1)">1</button>
+        <button type="submit" class="numbers" onclick="numclick(2)">2</button>
+        <button type="submit" class="numbers" onclick="numclick(3)">3</button>
+        <button type="submit" class="op" onclick="multiply()">MULTIPLY</button>
+        <br />
+      </div>
+
+      <div class="row4">
+        <button type="submit" class="numbers" onclick="numclick(0)">0</button>
+        <button type="submit" class="numbers" onclick="clea()">CLEAR</button>
+        <button type="submit" class="op" onclick="divide()">DIVIDE</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
